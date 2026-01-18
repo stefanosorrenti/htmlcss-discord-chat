@@ -230,10 +230,39 @@ header {
 
 
 
-
-
 .chat span {
     display: inline-block;
     margin-right: 5px;
 }
 
+/*Footer*/
+
+footer {
+    background-color: #2d2d35;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 50px;
+    font-size: 6px;
+    font-family: "Google Sans", sans-serif;
+}
+
+.btn-footer > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.btn-footer i {
+    font-size: large;
+    display: block;
+}
