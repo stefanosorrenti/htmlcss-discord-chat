@@ -20,6 +20,10 @@ img {
     width: 100%;
 }
 
+h1 {
+    font-size: x-large;
+}
+
 /*Layouts*/
 
 .layouts {
@@ -30,23 +34,18 @@ img {
 
 }
 
+
+
+
+/*Sidebar*/
+
 .sidebar {
     flex-shrink: 0;
     width: 15%;
     
     
-
-}
-
-.central {
-    flex-grow: 1;
     
-
 }
-
-
-/*Sidebar*/
-
 .server-icons {
     max-width: 55px;
     margin: 5px auto;
@@ -61,3 +60,23 @@ img {
     border-radius: 0%;
     margin-top: 20px;
 } 
+
+
+
+/*Centarl*/
+
+.central {
+    flex-grow: 1;
+    background-color: #1c1d22;
+    margin-top: 8px;
+    border-top-left-radius: 25px;
+    padding: 4%;
+    
+}
+
+/*Header*/
+
+header {
+    color: white;
+    font-family: "Google Sans", sans-serif;
+}
