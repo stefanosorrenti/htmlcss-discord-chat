@@ -3,9 +3,61 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 /*Utility*/
 
+
 /*Generics*/
 
+body {
+    width: 512px;
+    background-color: #141318;
+}
+
+img {
+    width: 100%;
+}
+
+/*Layouts*/
+
+.layouts {
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    
+
+}
+
+.sidebar {
+    flex-shrink: 0;
+    width: 15%;
+    
+    
+
+}
+
+.central {
+    flex-grow: 1;
+    
+
+}
+
+
+/*Sidebar*/
+
+.server-icons {
+    max-width: 55px;
+    margin: 5px auto;
+}
+.sidebar img {
+    border-radius: 100%;
+    
+}
+
+
+.server-icons:first-child > img {
+    border-radius: 0%;
+    margin-top: 20px;
+} 
